@@ -1,6 +1,6 @@
 const Usuario = require('../models/Usuario');
 const Producto = require('../models/Producto');
-//const Cliente = require('../models/Cliente');
+const Cliente = require('../models/Cliente');
 //const Pedido = require('../models/Pedido');
 
 const bcryptjs = require('bcryptjs');
@@ -250,7 +250,7 @@ const resolvers = {
         },
         nuevoCliente: async (_, { input }, ctx) => {
 
-            console.log(ctx);
+            //console.log(ctx);
 
             const { email } = input
             // Verificar si el cliente ya esta registrado
