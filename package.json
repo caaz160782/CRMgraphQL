@@ -1,0 +1,25 @@
+{
+  "name": "crmgraphql",
+  "version": "1.0.0",
+  "description": "apollo ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Apollo"
+  ],
+  "author": "Carlos Aguirre",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
